@@ -1,0 +1,7 @@
+{
+  "name": "SuperApp-2021-09-29-1738",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
