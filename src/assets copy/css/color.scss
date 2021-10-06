@@ -1,0 +1,330 @@
+/* color start */
+
+:root {
+    --dark: #141b2f;
+    --battleship_grey: #727682;
+    --pale_grey: #f6f7fb;
+    --white: #ffffff;
+    --darkish_blue: #003399;
+    --greyish: #b2b2b2;
+    --kermit_green: #59aa00;
+    --faded_red: #d23d50;
+    --warm_purple: #98359a;
+    --lavender_light: #c7b8eb;
+    --brownish_grey: #616161;
+    --white_Two: #f3f3f3;
+    --pale_blue: #def1fd;
+    --warm_grey: #707070;
+    --white_Three: #f1f1f1;
+    --squash: #ee9c15;
+    --lavender: #b3a4ee;
+    --bright_cyan: #44c8f5;
+    --lighter_purple: #9579da;
+    --pinkish_orange: #fa6c51;
+    --very_light_pink: #dedede;
+    --very_light_blue: #e6eaf3;
+    --green: #29ad00;
+    --greenish_teal: #35ba9b;
+}
+
+.cc_otp {
+    --background: var(--pale_grey);
+    border: 1px solid var(--bright_cyan);
+}
+
+.cc_bg {
+    background-image: linear-gradient(to top, #043d9f, #44c3f1);
+}
+
+.MarketingScreen {
+    ion-slide {
+        background-image: linear-gradient(to top, #043d9f, #44c3f1);
+    }
+    ion-slide:nth-child(2) {
+        background-image: var(--white);
+    }
+}
+
+.box {
+    background-color: var(--white);
+}
+
+.parent {
+    .child {
+        h1 {
+            color: var(--white);
+        }
+        ion-button {
+            --background: var(--white);
+            --color: var(--bright_cyan);
+        }
+        h2 {
+            color: var(--dark);
+        }
+        p {
+            color: var(--battleship_grey);
+        }
+        .cc_blue {
+            color: var(--darkish_blue) !important;
+        }
+    }
+}
+
+ion-slides {
+    ion-slide {
+        .cc_gray {
+            color: var(--warm_grey);
+        }
+        .next {
+            color: var(--white);
+        }
+    }
+    .swiper-pagination.swiper-pagination-bullets {
+        .swiper-pagination-bullet-active {
+            background: var(--bright_cyan);
+        }
+    }
+}
+
+.cc_toolbarHeader {
+    box-shadow: 0px 3px 12px #1a000000;
+    ion-title {
+        color: var(--dark);
+    }
+}
+
+.SplashParent {
+    background-color: #15203d;
+}
+
+.LogoHolder {
+    background-color: var(--darkish_blue);
+    .logoContent {
+        p {
+            color: var(--white);
+        }
+    }
+}
+
+.contentHolder {
+    h4 {
+        color: var(--darkish_blue);
+    }
+    h3 {
+        color: var(--darkish_blue);
+    }
+    hr {
+        background-color: var(--bright_cyan);
+    }
+    p {
+        color: var(--dark);
+    }
+}
+
+.cc_margin {
+    ion-item {
+        ion-label {
+            color: var(--brownish_grey) !important;
+            a {
+                --color: var(--darkish_blue);
+            }
+        }
+    }
+    ion-button {
+        border-color: var(--bright_cyan);
+        color: var(--dark);
+    }
+    .button-outline {
+        --border-color: var(--bright_cyan);
+        --color: var(--dark);
+    }
+    a {
+        --color: var(--darkish_blue);
+    }
+}
+
+.modal {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    border: 1px solid #888;
+    .cc_downArrow {
+        color: var(--greyish);
+    }
+    .modalTitle {
+        color: var(--dark);
+    }
+    .personIcon {
+        color: var(--bright_cyan);
+    }
+    .personOutline {
+        color: var(--warm_grey);
+    }
+    h3 {
+        color: var(--dark);
+    }
+    .cc_label {
+        color: #151b2e;
+    }
+    .addAccount {
+        color: #151b2e;
+    }
+    .cc_note {
+        color: var(--warm_grey);
+    }
+}
+
+#SMGSuccessGmail,
+#showModalSMGSuccesPhone {
+    ion-icon {
+        color: var(--kermit_green);
+    }
+    p {
+        color: var(--dark);
+    }
+}
+
+.close {
+    color: #aaaaaa;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+}
+
+.cc_webView {
+    box-shadow: 0 1px 14px rgba(0, 0, 0, .2)
+}
+
+.LoginWithPhoneHolder {
+    --background: var(--pale_grey);
+    p {
+        color: var(--dark);
+    }
+    .cc_border {
+        border: 1px solid var(--bright_cyan);
+        --border-color: var(--bright_cyan);
+        ion-label {
+            color: #80141b2f;
+        }
+        input[placeholder] {
+            color: var(--greyish);
+        }
+    }
+    .cc_Divbottom {
+        ion-item {
+            --background: var(--pale_grey);
+            ion-label {
+                color: var(--warm_grey);
+                a {
+                    color: var(--darkish_blue);
+                }
+            }
+        }
+    }
+    ion-title {
+        color: var(--dark);
+    }
+}
+
+.PhoneVerificationHolder {
+    --background: var(--white);
+    p {
+        color: var(--dark);
+    }
+    ion-item {
+        --background: var(--pale_grey);
+    }
+    ion-title {
+        color: #141b2f;
+    }
+    .cc_OTP {
+        border: 1px solid var(--bright_cyan);
+    }
+    .resentOtp {
+        color: var(--darkish_blue);
+    }
+}
+
+.cc_back {
+    color: #003399;
+}
+
+.error-message {
+    color: red;
+}
+
+.supperAppLandingpageHeader {
+    .NameHolder {
+        background-color: var(--white_Two);
+        p {
+            color: var(--dark);
+        }
+    }
+    p {
+        color: var(--battleship_grey);
+    }
+    .StoriesHolder {
+        border: 1px solid var(--bright_cyan);
+    }
+    .NotificationHolder,
+    .CardHolder {
+        background-color: var(--white_Two);
+    }
+}
+
+// them for ion
+.ios .slides-ios {
+    background-color: white;
+}
+
+// them for android
+.md .slides-md {
+    background-color: white;
+}
+
+#OTPModal .modal-content {
+    .modalTitle {
+        color: var(--dark);
+    }
+    .close {
+        color: var(--darkish_blue)
+    }
+    .PhoneVerificationHolder {
+        p {
+            color: (--dark);
+        }
+        .resentOtp {
+            color: var(--darkish_blue);
+        }
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .cc_margin {
+        ion-button {
+            color: var(--dark);
+        }
+        a {
+            --color: var(--darkish_blue);
+        }
+    }
+    .LoginWithPhoneHolder {
+        p:nth-child(2) {
+            color: var(--greyish);
+        }
+    }
+    ion-item {
+        --color-focused: var(--bright_cyan) !important;
+        --color-hover: var(--bright_cyan) !important;
+    }
+}

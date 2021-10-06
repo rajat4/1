@@ -1,0 +1,54 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="title">Robo Advisory </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="outer-content">
+  <div class="form">
+  <p class="note">
+    Note : PAN is required to check your KYC status, an acronym for "Know your Client". SEBI has prescribed certain requirements relating to KYC norms for Financial Institutions & Intermediaries to ‘Know’ their Clients. Applicants must be KYC compliant while dealing with any SEBI registered entities. If you are not KYC verified, we will help you complete the process.
+  </p>
+  <form class="input" action="#">
+    <ion-label>PAN</ion-label>
+    <ion-input  type="text" placeholder="Enter Your PAN" required></ion-input>
+
+    <ion-label >First Name</ion-label>
+    <ion-input type="text" placeholder="First Name" id="name"></ion-input>
+
+    <ion-label >Middle Name</ion-label>
+    <ion-input type="text" placeholder="Middle Name"></ion-input>
+
+    <ion-label >Last Name</ion-label>
+    <ion-input type="text" placeholder="Last Name"></ion-input>
+
+    <ion-label >Date of Birth</ion-label>
+    <ion-datetime id="dynamicDisabled" placeholder="DOB"></ion-datetime>
+
+    <ion-label >Gender</ion-label>
+    <ion-input type="text" placeholder="Male/Female/Transgender/Others"></ion-input>
+
+    <ion-label >Occupation</ion-label>
+    <ion-input type="text" placeholder="Enter Your Occupation"></ion-input>
+
+    <ion-label >Company</ion-label>
+    <ion-input type="text" placeholder="Enter Your Company"></ion-input>
+  </form>
+
+</div>
+
+<strong>
+  Communication Information
+</strong>
+<ul>
+  <li *ngFor="let rndNum of randomNums">{{rndNum}}</li>
+  
+</ul>
+</ion-content>
+<p id="PAN"></p>
+<ion-footer>
+  <div class="footer-div">
+    <ion-button expand="block" (click)="getFormData()">Save</ion-button>
+    <ion-button expand="block" (click)="getFormData()">Cancel</ion-button>
+  </div>
+</ion-footer>

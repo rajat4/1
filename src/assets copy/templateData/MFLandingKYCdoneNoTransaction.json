@@ -1,0 +1,124 @@
+{
+   "header":[
+      {
+         "description":"Benefits of Investing via Torus",
+         "bgImage":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/42F1DF54-D114-4520-8945-E7C0A1BB638D.svg",
+         "headerData":[
+            {
+               "displayType":"Horizontal",
+               "items":[
+                  {
+                     "icon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/1CEF74B8-7458-4A82-9AA9-020DF2D5050F.svg",
+                     "title":"Zero commisions"
+                  },
+                  {
+                     "icon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/494681FB-85B3-4C81-B5CD-4D6384AED9B6.svg",
+                     "title":"Upto 1% high returns"
+                  },
+                  {
+                     "icon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/898D590D-4ABD-4285-BBF2-FEA3E2127AFC.svg",
+                     "title":"Fast, Easy & 100% paperless"
+                  }
+               ]
+            }
+         ]
+      }
+   ],
+   "startInvestment":[
+      {
+         "title":"You haven't invested in any funds",
+         "subTitle":"Today is a good day to start investing",
+         "btn":"Start investing"
+      }
+   ],
+   "importInvest":[
+      {
+         "icon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/73D8F1E8-FECF-44BF-BB4E-C937753A22EC.svg",
+         "title":"Import your external Mutual fund investments",
+         "subTitle":"Manage all your mutual funds in one application",
+         "btn":"Import"
+      }
+   ],
+   "investLike":[
+      {
+         "title":"How do you like to invest?",
+         "invType":[
+            {
+               "type":"SIP",
+               "description":"Invest D5K per month & get D50 Lac Return*"
+            },
+            {
+               "type":"Lumpsum",
+               "description":"Accumulate wealth through compounding"
+            }
+         ],
+         "footerBanner":[
+            {
+               "message":"How Torus helps you make up to 25 lakh more in 25 years",
+               "icon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/5CB7C5F9-0636-4E6E-A4D4-F4AEB754C656.svg"
+            }
+         ]
+      }
+   ],
+   "exploreFunds":[
+      {
+         "title":"Explore Funds",
+         "filterIcon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/172CA21E-DF75-4478-84C1-BAEE6377F549.svg",
+         "return":"1Y Returns",
+         "exploreFundsList":[
+            {
+               "productLogo":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/131E2771-6723-4BA7-A9C6-8E03B5EC7FBF.png",
+               "productName":"ICICI Prudential Focused Bluechip Equity Fund",
+               "pinState":"true",
+               "minInvLabel":"Min. invest",
+               "catReturnLabel":"Category Return",
+               "returnLabel":"Return",
+               "minInvValue":"₹500",
+               "catReturnFrom":"51.20%",
+               "catReturnTo":"22.20%",
+               "returnValue":"22.62%",
+               "returnStatus":"bearish"
+            },
+            {
+               "productLogo":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/B871C356-E067-4585-B623-567B55D27C92.png",
+               "productName":"Franklin India Multi Asset Solution Fund Direct Growth",
+               "pinState":"false",
+               "minInvLabel":"Min. invest",
+               "catReturnLabel":"Category Return",
+               "returnLabel":"Return",
+               "minInvValue":"₹500",
+               "catReturnFrom":"51.20%",
+               "catReturnTo":"22.20%",
+               "returnValue":"22.62%",
+               "returnStatus":"bullish"
+            },
+            {
+               "productLogo":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/7FCFDEAA-6530-4B38-8BF5-349FFB99F9FC.png",
+               "productName":"Axis Long Term Equity Fund",
+               "pinState":"true",
+               "minInvLabel":"Min. invest",
+               "catReturnLabel":"Category Return",
+               "returnLabel":"Return",
+               "minInvValue":"₹500",
+               "catReturnFrom":"51.20%",
+               "catReturnTo":"22.20%",
+               "returnValue":"22.62%",
+               "returnStatus":"bearish"
+            },
+            {
+               "productLogo":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/C2E9B3C3-FA33-4299-ADD4-1721F072325B.png",
+               "productName":"Tata Digital India Direct Growth Fund",
+               "pinState":"false",
+               "minInvLabel":"Min. invest",
+               "catReturnLabel":"Category Return",
+               "returnLabel":"Return",
+               "minInvValue":"₹500",
+               "catReturnFrom":"51.20%",
+               "catReturnTo":"22.20%",
+               "returnValue":"22.62%",
+               "returnStatus":"bullish"
+            }
+         ]
+      }
+   ]
+}

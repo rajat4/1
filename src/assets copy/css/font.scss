@@ -1,0 +1,264 @@
+/* font start */
+
+
+/* 
+@font-face {
+    font-family: muli_bold;
+    src: url(./assets/fonts/Muli/Muli-Bold.ttf) format("opentype");
+}
+
+@font-face {
+    font-family: muli_regular;
+    src: url(./assets/fonts/Muli/Muli-Regular.ttf) format("opentype");
+}
+
+@font-face {
+    font-family: muli_semi_bold;
+    src: url(./assets/fonts/Muli/Muli-SemiBold.ttf) format("opentype");
+}
+
+@font-face {
+    font-family: itf_rupee;
+    src: url(./assets/fonts/ITF-Rupee.ttf) format("opentype");
+}
+
+ */
+
+@font-face {
+    font-family: muli_bold;
+    src: url(../../assets/fonts/Muli/Muli-Bold.ttf) format("opentype");
+}
+
+@font-face {
+    font-family: muli_regular;
+    src: url(../../assets/fonts/Muli/Muli-Regular.ttf) format("opentype");
+}
+
+@font-face {
+    font-family: muli_semi_bold;
+    src: url(../../assets/fonts/Muli/Muli-SemiBold.ttf) format("opentype");
+}
+
+@font-face {
+    font-family: itf_rupee;
+    src: url(../../assets/fonts/ITF-Rupee.ttf) format("opentype");
+}
+
+.parent {
+    .child {
+        h1 {
+            font-size: 26px;
+            font-family: "Muli-Regular", sans-serif;
+            letter-spacing: -0.18px;
+            strong {
+                font-family: "Muli-bold", sans-serif;
+            }
+        }
+        ion-button {
+            font-size: 12px;
+            text-transform: capitalize;
+        }
+        h2 {
+            font-size: 17px;
+            font-weight: bold;
+            font-family: "Muli-Bold", sans-serif !important;
+        }
+    }
+}
+
+.cc_toolbarHeader {
+    ion-title {
+        font-size: 12px;
+    }
+}
+
+.LogoHolder {
+    .logoContent {
+        p {
+            font-size: 10px;
+        }
+    }
+}
+
+.contentHolder {
+    h4 {
+        font-size: 30px !important;
+        font-family: "Muli-Regular", sans-serif;
+    }
+    h3 {
+        font-family: "Muli-Bold", sans-serif !important;
+        font-size: 50px !important;
+        font-weight: bold !important;
+    }
+    p {
+        font-family: Roboto, "Muli-Regular", sans-serif;
+        font-size: 14px;
+    }
+}
+
+.cc_margin {
+    ion-item {
+        ion-label {
+            font-size: 9px !important;
+            font-family: Roboto, "Muli-Regular", sans-serif;
+            a {
+                font-size: 9px;
+                font-family: "Muli-Regular", sans-serif;
+            }
+        }
+    }
+    a {
+        font-family: "Muli-Regular", sans-serif;
+    }
+}
+
+.modal-content {
+    .modalTitle {
+        font-size: 12px;
+        font-family: "Muli-Bold", sans-serif !important;
+        font-weight: bold;
+    }
+    h3 {
+        font-family: "Muli-SemiBold", sans-serif !important;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .cc_label {
+        font-size: 10px;
+    }
+    .addAccount {
+        font-size: 11px;
+    }
+    .cc_note {
+        font-size: 8px;
+    }
+}
+
+#SMGSuccessGmail,
+#showModalSMGSuccesPhone {
+    ion-icon {
+        font-size: 34px;
+    }
+    p {
+        font-size: 12px;
+        font-family: Roboto, "Muli-Bold", sans-serif !important;
+        font-weight: bold;
+    }
+}
+
+.close {
+    font-size: 22px;
+    // font-weight: bold;
+}
+
+.LoginWithPhoneHolder {
+    p {
+        font-size: 11px;
+    }
+    .cc_border {
+        ion-label {
+            font-size: 12px;
+        }
+    }
+    ion-title {
+        font-family: Roboto, "Muli-Bold", sans-serif !important;
+    }
+}
+
+.PhoneVerificationHolder {
+    p {
+        font-size: 11px;
+    }
+    ion-title {
+        font-family: Roboto, "Muli-Bold", sans-serif !important;
+    }
+    .resentOtp {
+        font-size: 9px;
+        font-weight: bold;
+    }
+}
+
+.successEmail {
+    font-weight: bold;
+}
+
+.cc_back {
+    font-size: 20px;
+}
+
+.error-message {
+    font-size: 12px;
+}
+
+.supperAppLandingpageHeader {
+    .NameHolder {
+        p {
+            font-size: 11px;
+        }
+    }
+    p {
+        font-family: "Muli-Bold", sans-serif !important;
+        font-size: 8px;
+    }
+}
+
+#OTPModal .modal-content {
+    .modalTitle {
+        font-size: 12px;
+        font-family: "Muli-Bold", sans-serif;
+        font-weight: bold;
+    }
+    .PhoneVerificationHolder {
+        p {
+            font-size: 11px;
+            font-family: "Muli-Regular", sans-serif;
+        }
+        .resentOtp {
+            font-size: 9px;
+            font-family: "Muli-Bold", sans-serif;
+            font-weight: bold;
+        }
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .contentHolder {
+        h4 {
+            font-size: 19px !important;
+        }
+        h3 {
+            font-size: 25px !important;
+        }
+    }
+    .cc_margin {
+        ion-label {
+            font-size: 9px !important;
+        }
+        ion-button {
+            font-size: 12px;
+        }
+        a {
+            font-size: 10px;
+            font-family: "Muli-Regular", sans-serif;
+        }
+    }
+    .LoginWithPhoneHolder {
+        p:nth-child(2) {
+            font-size: 10px;
+        }
+        ion-item {
+            ion-label {
+                font-size: 10px;
+            }
+        }
+    }
+    .cc_back {
+        font-size: 15px;
+    }
+    ion-toolbar ion-title {
+        font-size: 12px;
+    }
+}

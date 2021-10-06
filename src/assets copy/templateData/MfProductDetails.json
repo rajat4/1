@@ -1,0 +1,49 @@
+{
+   "productDetails":[
+      {
+         "productLogo":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/575BE58F-CF89-4EB7-8545-88C1BDCE348A.png",
+         "productName":"ICICI Prudential Focused Bluechip Equity Fund",
+         "benefits":[
+            {
+               "labels":"ELSS"
+            },
+            {
+               "labels":"Tax Saving"
+            }
+         ]
+      }
+   ],
+   "productGraph":[
+      {
+         "return":"22.50%",
+         "lossProfit":"1.50%",
+         "returnStatus":"bearish",
+         "returnPeriod":"1-Day Return",
+         "returnAsOn":"as on 08 April 2021",
+         "graphImage":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/05B44CA2-3D61-44A7-A83C-E49DF53B74E6.svg",
+         "buttons":[
+            {
+               "label":"1m"
+            },
+            {
+               "label":"3m"
+            },
+            {
+               "label":"6m"
+            },
+            {
+               "label":"1y"
+            },
+            {
+               "label":"3y"
+            },
+            {
+               "label":"5y"
+            },
+            {
+               "label":"Max"
+            }
+         ]
+      }
+   ]
+}

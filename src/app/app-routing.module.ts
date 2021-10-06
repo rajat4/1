@@ -11,6 +11,14 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'robo-advisory1',
+    loadChildren: () => import('./robo-advisory1/robo-advisory1.module').then( m => m.RoboAdvisory1PageModule)
+  },
+  {
+    path: 'robo-advisory2',
+    loadChildren: () => import('./robo-advisory2/robo-advisory2.module').then( m => m.RoboAdvisory2PageModule)
+  },
 ];
 
 @NgModule({

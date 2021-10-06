@@ -1,0 +1,289 @@
+<form class="SuperAppLandingFrom" [formGroup]="SuperAppLandingFrom">
+  <div>
+    <div *ngFor="let newAccordians of newAccord; let i = index;">
+      
+      <h2 (click)="toggleAccordion(i)">
+        {{newAccordians.AccordianTitle}}
+     
+
+        <span *ngIf="isMenuOpen">
+          <img src="../../../assets/Images/down_arrow.svg">
+        </span>
+        <span *ngIf="!isMenuOpen">
+          <img style="transform: rotate(180deg)" src="../../../assets/Images/down_arrow.svg">
+        </span>
+      </h2>
+
+      <div *ngIf="newAccordians.AccordianPannel != null">
+        <div [ngClass]="this.isMenuOpen ? 'active' : 'inactive'">
+
+          <div [id]="'AccordianPannel'+newAccordians.AccordianID"
+            *ngFor="let AccorPan of newAccordians.AccordianPannel; let i = index">
+            <img class="cc_hr" src="../../../assets/Images/rectangle_6023.svg">
+            <p>{{AccorPan.desciption}}</p>
+            <div *ngFor="let mySection of AccorPan.section">
+              <h3>{{mySection.subTitle}}</h3>
+              <ion-card class="VerticalCard" *ngFor="let vertiCard of mySection.verticalCard">
+                <img src={{vertiCard.icon}} />
+                <ion-label class="cc_label">{{vertiCard.title}}</ion-label>
+                <ion-row>
+                  <ion-col size="8">
+                    <p>{{vertiCard.descripation}}</p>
+                  </ion-col>
+                  <ion-col size="4">
+                    <ion-button [id]="'verticalCardBtn'+newAccordians.AccordianID"
+                      (click)="navigateMFLanding(vertiCard.title)" fill="outline">{{vertiCard.button}}
+                    </ion-button>
+                  </ion-col>
+                </ion-row>
+              </ion-card>
+
+              <div *ngIf="mySection.subTitle == 'Insurance Solutions'">
+                <ion-row>
+                  <ion-col size="6" *ngFor="let horiCard of mySection.horizontalCard">
+                    <ion-card class="horizontalCardIS">
+                      <ion-row class="cc_row">
+                        <ion-col size="2">
+                          <img src={{horiCard.icon}} />
+                        </ion-col>
+                        <ion-col size="10">
+                          <ion-label>{{horiCard.title}}</ion-label>
+                        </ion-col>
+                      </ion-row>
+                    </ion-card>
+                  </ion-col>
+                </ion-row>
+              </div>
+
+              <div *ngIf="mySection.subTitle == 'Instant Loans'">
+                <ion-row>
+                  <ion-col size="6" *ngFor="let horiCard of mySection.horizontalCard">
+                    <ion-card class="horizontalCardIS">
+                      <ion-row class="cc_row">
+                        <ion-col size="2">
+                          <img src={{horiCard.icon}} />
+                        </ion-col>
+                        <ion-col size="10">
+                          <ion-label>{{horiCard.title}}</ion-label>
+                        </ion-col>
+                      </ion-row>
+                    </ion-card>
+                  </ion-col>
+                </ion-row>
+              </div>
+
+              <div *ngIf="mySection.subTitle != 'Instant Loans'">
+
+                <ion-slides pager="true" #mySlider *ngIf="mySection.subTitle != 'Insurance Solutions'">
+                  <ion-slide>
+                    <ion-row>
+                      <ion-col size="6" *ngFor="let horiCard of mySection.horizontalCard">
+                        <ion-card class="horizontalCard">
+                          <ion-row>
+                            <img src={{horiCard.icon}} />
+                            <ion-label class="cc_label">{{horiCard.title}}</ion-label>
+                          </ion-row>
+                          <ion-row *ngIf="horiCard.descripation != ''">
+                            <ion-col>
+                              <p>{{horiCard.descripation}}</p>
+                            </ion-col>
+                          </ion-row>
+                          <ion-row *ngIf="horiCard.button != ''">
+                            <ion-col>
+                              <ion-button fill="outline">{{horiCard.button}}</ion-button>
+                            </ion-col>
+                          </ion-row>
+                        </ion-card>
+                      </ion-col>
+                    </ion-row>
+                  </ion-slide>
+
+                </ion-slides>
+
+              </div>
+
+              
+
+
+              <div *ngIf="mySection.subTitle == 'Insurance Solutions'">
+                <div *ngFor="let extras of mySection.extra">
+                  <div class="bannerIS" *ngFor="let banner of extras.banner">
+                    <div *ngIf="banner != null">
+                      <ion-card>
+
+                        <ion-row class="cc_row">
+                          <ion-col size="1">
+                            <img src={{banner.icon}} />
+                          </ion-col>
+                          <ion-col size="11">
+                            <ion-label class="cc_label">{{banner.title}}</ion-label>
+                          </ion-col>
+                        </ion-row>
+                      </ion-card>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div *ngIf="mySection.subTitle != 'Insurance Solutions'">
+                <div *ngFor="let extras of mySection.extra">
+                  <div *ngIf="extras != null">
+                    <div class="banner" *ngFor="let banner of extras.banner">
+                      <div *ngIf="banner != null">
+                        <ion-card>
+                          <img src={{banner.icon}} />
+                          <ion-label class="cc_label">{{banner.title}}</ion-label>
+                          <ion-row>
+                            <ion-col size="7">
+                              <p>{{banner.descripation}}</p>
+                            </ion-col>
+                            <ion-col size="5" *ngIf="banner.button != ''">
+                              <ion-button fill="outline">{{banner.button}}</ion-button>
+                            </ion-col>
+                          </ion-row>
+                        </ion-card>
+                      </div>
+                    </div>
+
+                    <div class="sliderBanner" *ngFor="let slider of extras.slider">
+                      <div *ngIf="slider != null">
+                        <ion-card [style.background-image]="'url(' + slider.backgroundimage + ')'"
+                          [style.background-size]="'cover'" [style.background-repeat]="'no-repeat'">
+
+                          <ion-label>{{slider.label}}</ion-label>
+                          <p>{{slider.desciption}}</p>
+
+                          <div *ngIf="slider.button != ''">
+                            <ion-button fill="outline">{{slider.button}}</ion-button>
+                          </div>
+                        </ion-card>
+                      </div>
+                    </div>
+
+                    <div class="topPerforming" *ngFor="let topPerforming of extras.topPerforming">
+                      <div *ngIf="topPerforming != null">
+                        <ion-row>
+                          <img src="{{topPerforming.icon}}" />
+                          <h3>{{topPerforming.heading}}</h3> <span>See all</span>
+                        </ion-row>
+
+                        <ion-slides [options]="slideOpts" #mySlider2>
+                          <ion-slide>
+                            <div *ngFor="let cards of topPerforming.card ">
+                              <h4>{{cards.title}}</h4>
+                              <ion-card>
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                                <ion-row>
+                                  <ion-col size="2">
+                                    <img src="{{cards.logo}}" />
+                                  </ion-col>
+                                  <ion-col>
+                                    <h6>{{cards.productName}}</h6>
+                                  </ion-col>
+                                </ion-row>
+                                <ion-row>
+                                  <ion-col size="7">
+                                    <ion-row>
+                                      <h6>{{cards.currentPrice}}</h6>
+                                      <div class="divBearish" *ngIf="cards.status == 'bearish'">
+                                        <h6>&#9650; {{cards.statusPrice}}</h6>
+                                      </div>
+
+                                      <div class="divBullish" *ngIf="cards.status != 'bearish'">
+                                        <h6>&#9660; {{cards.statusPrice}}</h6>
+                                      </div>
+                                    </ion-row>
+
+                                    <p>{{cards.period}}</p>
+                                  </ion-col>
+
+                                  <ion-col size="5">
+                                    <ion-button [id]="'verticalCardBtn'+newAccordians.AccordianID"
+                                      (click)="showAccordian(newAccordians.AccordianID)" fill="outline">{{cards.button}}
+                                    </ion-button>
+                                  </ion-col>
+
+                                </ion-row>
+                              </ion-card>
+                            </div>
+                          </ion-slide>
+                        </ion-slides>
+                      </div>
+                    </div>
+
+                    <div class="usStock" *ngFor="let investInUSStocks of extras.investInUSStocks">
+                      <div *ngIf="investInUSStocks != null">
+                        <ion-row>
+                          <img src="{{investInUSStocks.icon}}" />
+                          <h3>{{investInUSStocks.heading}}</h3>
+                        </ion-row>
+
+                 
+
+                        <ion-slides [options]="slidePrevwInvest">
+                          <ion-slide>
+                      
+                            <div *ngFor="let cards of investInUSStocks.card">
+
+                              <ion-card>
+                                <img src={{cards.logo}} />
+                                <h6>{{cards.productName}}</h6>
+
+                                <div *ngIf="currency==dollar">
+                                  <h6>&dollar; {{cards.currentPrice}}</h6>
+                                </div>
+
+                                <div class="divBearish" *ngIf="cards.status == 'bearish'">
+                                  <h6>&#9650;{{cards.statusPrice}} </h6>
+                                </div>
+
+                                <div class="divBullish" *ngIf="cards.status != 'bearish'">
+                                  <h6>&#9660;{{cards.statusPrice}} </h6>
+                                </div>
+
+                              </ion-card>
+
+                            </div>
+
+                  
+                          </ion-slide>
+
+                        </ion-slides>
+
+
+                      </div>
+                    </div>
+
+
+                  </div>
+
+            
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <div *ngIf="newAccordians.HealthData != null">
+          <div [ngClass]="this.isMenuOpen ? 'active' : 'inactive'">
+            <div [id]="'AccordianPannel'+newAccordians.AccordianID" *ngFor="let AccorPan of newAccordians.HealthData; let i = index">
+              <img class="cc_hr" src="../../../assets/Images/rectangle_6023.svg">
+              <p>{{AccorPan.desciption}}</p>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf="newAccordians.EducationData != null">
+          <div [ngClass]="this.isMenuOpen ? 'active' : 'inactive'">
+            <div [id]="'AccordianPannel'+newAccordians.AccordianID" *ngFor="let AccorPan of newAccordians.EducationData; let i = index">
+              <img class="cc_hr" src="../../../assets/Images/rectangle_6023.svg">
+              <p>{{AccorPan.desciption}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>

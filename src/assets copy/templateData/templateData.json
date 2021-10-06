@@ -1,0 +1,368 @@
+[
+   {
+      "templateName":"SupperAppLandingPage",
+      "welcomeName":"hey, Umesh",
+      "description":"here are today's recommended actions for you",
+      "supperAppLandingPage1":[
+         {
+            "headerData":[
+               {
+                  "profile":true,
+                  "stories":true,
+                  "notification":true,
+                  "myCart":true,
+                  "title":false
+               }
+            ],
+            "NumberOfAccordion":3,
+            "Accordian":[
+               {
+                  "AccordianID":1,
+                  "AccordianTitle":"Wealth Wellness",
+                  "HealthData":[
+                     
+                  ],
+                  "EducationData":[
+                     
+                  ],
+                  "AccordianPannel":[
+                     {
+                        "desciption":"Offering products to help you make informed investment decisions ",
+                        "section":[
+                           {
+                              "subTitle":"Money Makers",
+                              "verticalCard":[
+                                 {
+                                    "icon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/C027D762-3066-455D-89B2-FF02E0850BB7.svg",
+                                    "title":"Mutual Funds",
+                                    "descripation":"Invest in direct mutual funds for free",
+                                    "button":"Explore"
+                                 },
+                                 {
+                                    "icon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/46259A43-D4FE-4152-83F2-B5A514BA8062.svg",
+                                    "title":"Stocks",
+                                    "descripation":"Enjoy zero trading costs in cash segment. F&O at D10 per order",
+                                    "button":"Explore"
+                                 }
+                              ],
+                              "horizontalCard":[
+                                 {
+                                    "icon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/8EE00868-C6ED-4AD7-AAD1-57B5124DB3EB.svg",
+                                    "title":"US Stocks",
+                                    "descripation":"Build your US stocks portfolio",
+                                    "button":"Open Account"
+                                 },
+                                 {
+                                    "icon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/3C3EEEF2-C857-4C29-995A-E5DEBB38E1DC.svg",
+                                    "title":"Basket",
+                                    "descripation":"Thematic baskets exclusively for you",
+                                    "button":"Explore"
+                                 }
+                              ],
+                              "extra":[
+                                 {
+                                    "banner":[
+                                       {
+                                          "icon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/3C3EEEF2-C857-4C29-995A-E5DEBB38E1DC.svg",
+                                          "title":"Wealth Robo Advisory",
+                                          "descripation":"Get real time assistance by our Robo advisory",
+                                          "button":"Get Assist"
+                                       }
+                                    ],
+                                    "slider":[
+                                       
+                                    ],
+                                    "topPerforming":[
+                                       {
+                                          "heading":"Top Performing",
+                                          "icon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/8AD2F9AD-D43B-4993-BD25-E336DA4A6022.svg",
+                                          "card":[
+                                             {
+                                                "title":"Mutual Funds",
+                                                "logo":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/ABC46E34-A085-4838-9908-6C984E1366D9.png",
+                                                "productName":"ICICI Prudential Focused Bluechip Equity Fund",
+                                                "pinState":false,
+                                                "currentPrice":"122.143",
+                                                "status":"bearish",
+                                                "statusPrice":"0.03(0.2%)",
+                                                "period":"as on 08 April 2021, 03:00pm",
+                                                "button":"Invest Now"
+                                             },
+                                             {
+                                                "title":"Stocks",
+                                                "logo":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/ABC46E34-A085-4838-9908-6C984E1366D9.png",
+                                                "productName":"ICICI Prudential Focused Bluechip Equity Fund",
+                                                "pinState":false,
+                                                "currentPrice":"122.143",
+                                                "status":"bullish",
+                                                "statusPrice":"0.03(0.2%)",
+                                                "period":"as on 08 April 2021, 03:00pm",
+                                                "button":"Invest Now"
+                                             }
+                                          ]
+                                       }
+                                    ],
+                                    "investInUSStocks":[
+                                       {
+                                          "heading":"Invest In US Stocks",
+                                          "icon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/C5DDCD20-35B9-4BC8-9708-2B178D64246A.svg",
+                                          "card":[
+                                             {
+                                                "logo":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/DC8878DB-C84C-4888-9758-8F9EF0328E2E.png",
+                                                "productName":"Tesla Inc.",
+                                                "pinState":false,
+                                                "currentPrice":"729.40",
+                                                "currency":"dollar",
+                                                "status":"bearish",
+                                                "statusPrice":"09.71(1.35%)"
+                                             },
+                                             {
+                                                "logo":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/D85A6E16-6FDB-4754-9378-86A9D1366F5D.png",
+                                                "productName":"Apple Inc",
+                                                "pinState":false,
+                                                "currentPrice":"134.32",
+                                                "currency":"dollar",
+                                                "status":"bullish",
+                                                "statusPrice":"02.38(1.80%)"
+                                             },
+                                             {
+                                                "logo":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/EBDFDFC7-0980-4049-89A9-AAB4A051CDB7.png",
+                                                "productName":"Facebook Inc",
+                                                "pinState":false,
+                                                "currentPrice":"2299.93",
+                                                "currency":"dollar",
+                                                "status":"bearish",
+                                                "statusPrice":"31.84(0.96%)"
+                                             },
+                                             {
+                                                "logo":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/EBDFDFC7-0980-4049-89A9-AAB4A051CDB7.png",
+                                                "productName":"Facebook Inc",
+                                                "pinState":false,
+                                                "currentPrice":"2299.93",
+                                                "currency":"dollar",
+                                                "status":"bullish",
+                                                "statusPrice":"31.84(0.96%)"
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "subTitle":"Money Savers",
+                              "verticalCard":[
+                                 {
+                                    "icon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/14F33F0A-1E34-43E0-920F-ED3895C5798E.svg",
+                                    "title":"Gold",
+                                    "descripation":"Build your gold savings with 24k 99.99% purity gold",
+                                    "button":"Invest Now"
+                                 }
+                              ],
+                              "horizontalCard":[
+                                 {
+                                    "icon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/A83ED26D-9AB2-47AD-A95E-5A0FE46587F6.svg",
+                                    "title":"Fixed Deposits",
+                                    "descripation":"Earn fixed interest on your hard earned money",
+                                    "button":"Explore"
+                                 },
+                                 {
+                                    "icon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/B04C4BB4-64DC-4B6A-BDEA-3BDEBA17BE5B.svg",
+                                    "title":"Bonds",
+                                    "descripation":"Invest in bonds and  have a regular income after your retirement ",
+                                    "button":"Explore"
+                                 }
+                              ],
+                              "extra":[
+                                 {
+                                    "banner":[
+                                       
+                                    ],
+                                    "slider":[
+                                       {
+                                          "backgroundimage":"assets/Images/money_saver_banner_bg.png",
+                                          "label":"Funds With Best Returns",
+                                          "desciption":"Top performing schemes across categories",
+                                          "button":"Invest Now"
+                                       }
+                                    ],
+                                    "topPerforming":[
+                                       
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "subTitle":"Insurance Solutions",
+                              "horizontalCard":[
+                                 {
+                                    "icon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/66C9009E-4DB7-4B9D-A8A6-BC2A44901C0F.svg",
+                                    "title":"Two Wheeler Insurance",
+                                    "descripation":"",
+                                    "button":""
+                                 },
+                                 {
+                                    "icon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/A374736A-471E-472C-9A8A-B058C57D7832.svg",
+                                    "title":"Car Insurance",
+                                    "descripation":"",
+                                    "button":""
+                                 },
+                                 {
+                                    "icon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/0202CA95-BC62-4A4F-B32E-90C39DE1ECBD.svg",
+                                    "title":"Health Insurance",
+                                    "descripation":"",
+                                    "button":""
+                                 },
+                                 {
+                                    "icon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/ABD9995A-AD19-4F8A-9385-FA3A424EA195.svg",
+                                    "title":"Life Cover",
+                                    "descripation":"",
+                                    "button":""
+                                 },
+                                 {
+                                    "icon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/A5332048-0D2A-4EE2-A618-3F1DD33251CB.svg",
+                                    "title":"Child Insurance",
+                                    "descripation":"",
+                                    "button":""
+                                 },
+                                 {
+                                    "icon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/E69D9A4A-5673-444C-95D9-E7822A182514.svg",
+                                    "title":"Pension Plans",
+                                    "descripation":"",
+                                    "button":""
+                                 }
+                              ],
+                              "verticalCard":[
+                                 
+                              ],
+                              "extra":[
+                                 {
+                                    "banner":[
+                                       {
+                                          "icon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/E8852872-CA31-47C2-AD58-1369CABB1B24.svg",
+                                          "title":"Travel Insurance",
+                                          "descripation":"",
+                                          "button":""
+                                       }
+                                    ],
+                                    "slider":[
+                                       
+                                    ],
+                                    "topPerforming":[
+                                       
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "subTitle":"Instant Loans",
+                              "verticalCard":[
+                                 {
+                                    "icon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/B0310014-4898-43B3-A902-9ABC4B22B8C8.svg",
+                                    "title":"Get Loan against Shares",
+                                    "descripation":"Quick & hassle free loan upto D10 lakhs",
+                                    "button":"Apply Now"
+                                 }
+                              ],
+                              "horizontalCard":[
+                                 {
+                                    "icon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/C79EE2B5-BD31-4EC6-9B97-98ECF5E627C9.svg",
+                                    "title":"Personal Loans",
+                                    "descripation":"",
+                                    "button":""
+                                 },
+                                 {
+                                    "icon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/EC246F34-E9EF-4121-85A6-62EE63E5D5DA.svg",
+                                    "title":"Vehicle Loans",
+                                    "descripation":"",
+                                    "button":""
+                                 },
+                                 {
+                                    "icon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/A850A4B3-79DA-432E-BBCA-B2E76CA3B4AA.svg",
+                                    "title":"Home Loans",
+                                    "descripation":"",
+                                    "button":""
+                                 },
+                                 {
+                                    "icon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/15C882D7-A027-4109-AE25-AC43F0837DA4.svg",
+                                    "title":"Business Loans",
+                                    "descripation":"",
+                                    "button":""
+                                 },
+                                 {
+                                    "icon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/8F6B571A-9452-44DF-85F0-9B8F8A270979.svg",
+                                    "title":"Home Loans",
+                                    "descripation":"",
+                                    "button":""
+                                 },
+                                 {
+                                    "icon":"https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/BBE32195-8C44-425D-A3BC-67815C1E6FD6.svg",
+                                    "title":"Business Loans",
+                                    "descripation":"",
+                                    "button":""
+                                 }
+                              ],
+                              "extra":[
+                                 
+                              ]
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "AccordianID":2,
+                  "AccordianTitle":"Health Wellness",
+                  "HealthData":[
+                     {
+                        "desciption":"Health products to ensure wellness"
+                     }
+                  ],
+                  "EducationData":[
+                     
+                  ],
+                  "AccordianPannel":[
+                     
+                  ]
+               },
+               {
+                  "AccordianID":3,
+                  "AccordianTitle":"Education Wellness",
+                  "HealthData":[
+                     
+                  ],
+                  "EducationData":[
+                     {
+                        "desciption":"Grow yourself with knowledge you need"
+                     }
+                  ],
+                  "AccordianPannel":[
+                     
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "templateName":"MarketingScreen",
+      "MarketingScreenNumber":3,
+      "screen":[
+         {
+            "Image":"https://image.flaticon.com/icons/png/512/2719/2719515.png",
+            "title":"Welcome to India’s First",
+            "paragraph":"Smart Wellness Platform"
+         },
+         {
+            "Image":"https://image.flaticon.com/icons/png/512/2719/2719515.png",
+            "title":"One platform to track, save, invest your wealth",
+            "paragraph":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+         },
+         {
+            "Image":"https://image.flaticon.com/icons/png/512/2719/2719515.png",
+            "title":"One marketplace to fulfill all your health needs",
+            "paragraph":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. "
+         }
+      ]
+   }
+]

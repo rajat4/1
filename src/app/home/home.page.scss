@@ -30,15 +30,33 @@
   font-family:"Muli-Regular";
   display: inline-block;
 }
-// .ra-card-component:hover{
-//   overflow: hidden;
-//   background-color: green;
-//   color: green;
-// }
+.ra-card:hover{
+  overflow: hidden;
+  background-color: lightseagreen;
+  // color: lightseagreen;
+  align-items: center;
+}
 .icon{
   height: 100px;
   width:100px;
 }
-.ion-card:hover{
-  color:green;
+// .ion-card:hover{
+//   color: lightgoldenrodyellow;
+// }
+
+.rajat {
+  padding: 0px 30px 0px 30px;
+  width: 200px;
+  height: 100px;
+  background: #FFB6C1;
+  transition: background-color 2s ease-out 100ms
+  // align-items: center;
+}
+
+.rajat:hover {
+  background-color: #FF1493;
+}
+
+.card-div{
+  display: flex-box;
 }

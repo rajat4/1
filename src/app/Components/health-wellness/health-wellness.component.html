@@ -1,0 +1,70 @@
+<form class="SuperAppLandingFrom" [formGroup]="SuperAppLandingFrom">
+    <h2 (click)="toggleAccordion()">
+        Health Wellness
+        <span *ngIf="isMenuOpen">&#9650;</span>
+        <span *ngIf="!isMenuOpen">&#9660;</span>
+    </h2>
+    <div [ngClass]="this.isMenuOpen ? 'active' : 'inactive'">
+        <div *ngFor="let newAccordians of HealthAccord; let i = index;">
+            <div [id]="'AccordianPannel'+newAccordians.AccordianID" *ngFor="let AccorPan of newAccordians.AccordianPannel; let i = index">
+                <img class="cc_hr" src="../../../assets/Images/rectangle_6023.svg">
+                <p>{{AccorPan.desciption}}</p>
+                <div *ngFor="let mySection of AccorPan.section">
+                    <h3>{{mySection.subTitle}}</h3>
+                    <ion-card class="VerticalCard" *ngFor="let vertiCard of mySection.verticalCard">
+                        <img src={{vertiCard.icon}}/>
+                        <ion-label class="cc_label">{{vertiCard.title}}</ion-label>
+                        <ion-row>
+                            <ion-col size="8">
+                                <p>{{vertiCard.descripation}}</p>
+                            </ion-col>
+                            <ion-col size="4">
+                                <ion-button fill="outline">{{vertiCard.button}}</ion-button>
+                            </ion-col>
+                        </ion-row>
+                    </ion-card>
+                    <ion-slides pager="true" #mySlider>
+                        <ion-slide>
+                            <ion-row>
+                                <ion-col size="6" *ngFor="let horiCard of mySection.horizontalCard">
+                                    <ion-card class="horizontalCard">
+                                        <img src={{horiCard.icon}}/>
+                                        <ion-label class="cc_label">{{horiCard.title}}</ion-label>
+                                        <ion-row *ngIf="horiCard.descripation != ''">
+                                            <ion-col>
+                                                <p>{{horiCard.descripation}}</p>
+                                            </ion-col>
+                                        </ion-row>
+                                        <ion-row *ngIf="horiCard.button != ''">
+                                            <ion-col>
+                                                <ion-button fill="outline">{{horiCard.button}}</ion-button>
+                                            </ion-col>
+                                        </ion-row>
+                                    </ion-card>
+                                </ion-col>
+                            </ion-row>
+                        </ion-slide>
+
+                    </ion-slides>
+                    <div *ngFor="let extras of mySection.extra">
+                        <div *ngFor="let banner of extras.banner">
+                            <ion-card class="banner">
+                                <img src={{banner.icon}}/>
+                                <ion-label class="cc_label">{{banner.title}}</ion-label>
+                                <ion-row>
+                                    <ion-col size="8">
+                                        <p>{{banner.descripation}}</p>
+                                    </ion-col>
+                                    <ion-col size="4">
+                                        <ion-button fill="outline">{{banner.button}}</ion-button>
+                                    </ion-col>
+                                </ion-row>
+                            </ion-card>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</form>

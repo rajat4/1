@@ -1,0 +1,192 @@
+[
+{
+    "templateName": "SupperAppLandingPage",
+    "welcomeName": "hey, Umesh",
+    "description": "here are today's recommended actions for you",
+    "supperAppLandingPage1": [{
+        "headerData": [{
+            "profile": true,
+            "stories": true,
+            "notification": true,
+            "myCart": true,
+            "title": false
+        }],
+        "NumberOfAccordion": 1,
+        "Accordian": [{
+            "AccordianID": 1,
+            "AccordianTitle": "Wealth Wellness",
+            "AccordianPannel": [{
+                "desciption": "Offering products to help you make informed investment decisions ",
+                "section": [{
+                        "subTitle": "Money Makers",
+                        "verticalCard": [{
+                                "icon": "https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/C027D762-3066-455D-89B2-FF02E0850BB7.svg",
+                                "title": "Mutual Funds",
+                                "descripation": "Invest in direct mutual funds for free",
+                                "button": "Explore"
+                            },
+                            {
+                                "icon": "https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/46259A43-D4FE-4152-83F2-B5A514BA8062.svg",
+                                "title": "Stocks",
+                                "descripation": "Enjoy zero trading costs in cash segment. F&O at D10 per order",
+                                "button": "Explore"
+                            }
+                        ],
+                        "horizontalCard": [{
+                                "icon": "https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/8EE00868-C6ED-4AD7-AAD1-57B5124DB3EB.svg",
+                                "title": "US Stocks",
+                                "descripation": "Build your US stocks portfolio",
+                                "button": "Open Account"
+                            },
+                            {
+                                "icon": "https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/3C3EEEF2-C857-4C29-995A-E5DEBB38E1DC.svg",
+                                "title": "Basket",
+                                "descripation": "Thematic baskets  exclusively for you",
+                                "button": "Explore"
+                            }
+                        ],
+                        "extra": [{
+                            "banner": [{
+                                "icon": "https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/3C3EEEF2-C857-4C29-995A-E5DEBB38E1DC.svg",
+                                "title": "Wealth Robo Advisory",
+                                "descripation": "Get real time assistance by our Robo advisory",
+                                "button": "Get Assist"
+                            }],
+                            "slider": [],
+
+                            "topPerforming": [{
+                                    "heading": "Top Performing",
+                                    "icon": "https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/8AD2F9AD-D43B-4993-BD25-E336DA4A6022.svg",
+                                    "card": [{
+                                            "title": "Mutula Funds",
+                                            "logo": "https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/ABC46E34-A085-4838-9908-6C984E1366D9.png",
+                                            "productName": "ICICI Prudential Focused Bluechip Equity Fund",
+                                            "pinState": false,
+                                            "currentPrice": "122.143",
+                                            "status": "bearish",
+                                            "statusPrice": "0.03(0.2%)",
+                                            "period": "as on 08 April 2021, 03:00pm",
+                                            "button": "Invest Now"
+                                        },
+                                        {
+                                            "title": "Stocks",
+                                            "logo": "https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/ABC46E34-A085-4838-9908-6C984E1366D9.png",
+                                            "productName": "ICICI Prudential Focused Bluechip Equity Fund",
+                                            "pinState": false,
+                                            "currentPrice": "122.143",
+                                            "status": "bullish",
+                                            "statusPrice": "0.03(0.2%)",
+                                            "period": "as on 08 April 2021, 03:00pm",
+                                            "button": "Invest Now"
+                                        }
+                                    ]
+                                }
+
+
+                            ]
+                        }]
+                    },
+                    {
+                        "subTitle": "Money Savers",
+                        "verticalCard": [{
+                            "icon": "https://image.flaticon.com/icons/png/512/2719/2719515.png",
+                            "title": "Gold",
+                            "descripation": "Build your gold savings with 24k 99.99% purity gold",
+                            "button": "Invest Now"
+                        }],
+                        "horizontalCard": [{
+                                "icon": "https://image.flaticon.com/icons/png/512/2719/2719515.png",
+                                "title": "Fixed Deposits",
+                                "descripation": "Earn fixed interest on your hard earned money",
+                                "button": "Explore"
+                            },
+                            {
+                                "icon": "https://image.flaticon.com/icons/png/512/2719/2719515.png",
+                                "title": "Bonds",
+                                "descripation": "Invest in bonds and  have a regular income after your retirement ",
+                                "button": "Explore"
+                            }
+                        ],
+                        "extra": [{
+                            "banner": [],
+                            "slider": [{
+                                "testlabel": "test"
+                            }],
+                            "topPerforming": []
+                        }]
+                    },
+                    {
+                        "subTitle": "Insurance Solutions",
+                        "verticalCard": [{
+                            "icon": "https://image.flaticon.com/icons/png/512/2719/2719515.png",
+                            "title": "Gold",
+                            "descripation": "Build your gold savings with 24k 99.99% purity gold",
+                            "button": "Invest Now"
+                        }],
+                        "horizontalCard": [{
+                                "icon": "https://image.flaticon.com/icons/png/512/2719/2719515.png",
+                                "title": "Two Wheeler Insurance",
+                                "descripation": "",
+                                "button": ""
+                            },
+                            {
+                                "icon": "https://image.flaticon.com/icons/png/512/2719/2719515.png",
+                                "title": "Car Insurance",
+                                "descripation": "",
+                                "button": ""
+                            }
+                        ],
+                        "extra": []
+                    },
+                    {
+                        "subTitle": "Instant Loans",
+                        "verticalCard": [{
+                            "icon": "https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/B0310014-4898-43B3-A902-9ABC4B22B8C8.svg",
+                            "title": "Get Loan against Shares",
+                            "descripation": "Quick & hassle free loan upto D10 lakhs",
+                            "button": "Apply Now"
+                        }],
+                        "horizontalCard": [{
+                                "icon": "https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/C79EE2B5-BD31-4EC6-9B97-98ECF5E627C9.svg",
+                                "title": "Personal Loans",
+                                "descripation": "",
+                                "button": ""
+                            },
+                            {
+                                "icon": "https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/EC246F34-E9EF-4121-85A6-62EE63E5D5DA.svg",
+                                "title": "Vehicle Loans",
+                                "descripation": "",
+                                "button": ""
+                            },
+                            {
+                                "icon": "https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/EC246F34-E9EF-4121-85A6-62EE63E5D5DA.svg",
+                                "title": "Home Loans",
+                                "descripation": "",
+                                "button": ""
+                            },
+                            {
+                                "icon": "https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/EC246F34-E9EF-4121-85A6-62EE63E5D5DA.svg",
+                                "title": "Business Loans",
+                                "descripation": "",
+                                "button": ""
+                            },
+                            {
+                                "icon": "https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/EC246F34-E9EF-4121-85A6-62EE63E5D5DA.svg",
+                                "title": "Home Loans",
+                                "descripation": "",
+                                "button": ""
+                            },
+                            {
+                                "icon": "https://cdn.zeplin.io/60a5fc059289442bc47e7527/assets/EC246F34-E9EF-4121-85A6-62EE63E5D5DA.svg",
+                                "title": "Business Loans",
+                                "descripation": "",
+                                "button": ""
+                            }
+                        ],
+                        "extra": []
+                    }
+                ]
+            }]
+        }]
+    }]
+}]
