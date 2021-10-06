@@ -1,6 +1,5 @@
 #container {
   text-align: center;
-
   position: absolute;
   left: 0;
   right: 0;
@@ -33,16 +32,12 @@
 .ra-card:hover{
   overflow: hidden;
   background-color: lightseagreen;
-  // color: lightseagreen;
   align-items: center;
 }
 .icon{
   height: 100px;
   width:100px;
 }
-// .ion-card:hover{
-//   color: lightgoldenrodyellow;
-// }
 
 .rajat {
   padding: 0px 30px 0px 30px;
@@ -50,7 +45,6 @@
   height: 100px;
   background: #FFB6C1;
   transition: background-color 2s ease-out 100ms
-  // align-items: center;
 }
 
 .rajat:hover {
