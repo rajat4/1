@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-robo-advisory1',
-  templateUrl: './robo-advisory1.page.html',
-  styleUrls: ['./robo-advisory1.page.scss'],
+  selector: 'app-robo-advisory2',
+  templateUrl: './robo-advisory2.page.html',
+  styleUrls: ['./robo-advisory2.page.scss'],
 })
-export class RoboAdvisory1Page implements OnInit {
+export class RoboAdvisory2Page implements OnInit {
   name: string;
   rndNum: JSON;
   constructor() { }
