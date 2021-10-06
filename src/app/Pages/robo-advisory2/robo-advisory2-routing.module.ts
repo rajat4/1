@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { RoboAdvisory1Page } from './robo-advisory2.page';
+import { RoboAdvisory2Page } from './robo-advisory2.page';
 
 const routes: Routes = [
   {
     path: '',
-    component: RoboAdvisory1Page
+    component: RoboAdvisory2Page
   }
 ];
 
